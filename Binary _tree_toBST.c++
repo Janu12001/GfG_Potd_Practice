@@ -1,3 +1,5 @@
+
+// Inorder function
 void inorder(Node *root, vector<int> &ans, int &i)
 {
 
@@ -10,6 +12,7 @@ void inorder(Node *root, vector<int> &ans, int &i)
     inorder(root->right, ans, i);
 }
 
+// get the data in the vector
 void solve(Node *root, vector<int> &ans)
 {
 
