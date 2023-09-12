@@ -1,4 +1,4 @@
 # GfG_Potd_Practice
-Practice coding 
+Practice Coding 
 # Language Used
  - CPP
