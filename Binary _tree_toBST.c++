@@ -1,6 +1,6 @@
 
 // Inorder function
-void Inorder(Node *root, vector<int> &ans, int &i)
+void inorder(Node *root, vector<int> &ans, int &i)
 {
 
     if (!root)
