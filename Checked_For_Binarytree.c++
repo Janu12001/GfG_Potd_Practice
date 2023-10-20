@@ -1,4 +1,4 @@
-pair<bool, int> balancedfast(Node *root)
+Pair<bool, int> balancedfast(Node *root)
 {
 
     if (root == NULL)
