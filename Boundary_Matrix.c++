@@ -1,4 +1,4 @@
-vector<int> boundaryTraversal(vector<vector<int>> matrix, int n, int m)
+vector<int> boundarytraversal(vector<vector<int>> matrix, int n, int m)
 {
     // code here
     vector<int> result;

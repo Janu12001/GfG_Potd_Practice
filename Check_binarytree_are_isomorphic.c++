@@ -2,7 +2,7 @@ class Solution
 {
 public:
     // Return True if the given trees are isomotphic. Else return False.
-    bool isIsomorphic(Node *root1, Node *root2)
+    bool is_Isomorphic(Node *root1, Node *root2)
     {
         // add code here.
 
@@ -15,7 +15,7 @@ public:
             return false;
 
         // identical or mirror case are isopor
-        if (isIsomorphic(root1->left, root2->left) && isIsomorphic(root1->right, root2->right) || isIsomorphic(root1->left, root2->right) && isIsomorphic(root1->right, root2->left))
+        if (is_Isomorphic(root1->left, root2->left) && isIsomorphic(root1->right, root2->right) || isIsomorphic(root1->left, root2->right) && isIsomorphic(root1->right, root2->left))
 
             return true;
     }
