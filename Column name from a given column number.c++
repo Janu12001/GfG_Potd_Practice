@@ -1,5 +1,5 @@
 
-string colName(long long int n)
+string ColName(long long int n)
 {
     // your code here
     string ans = "";
